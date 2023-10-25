@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PCloud</title>
+        <link href="photosStyle.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+<header><h1>PCloud</h1>
+    <h4>Albums</h4>
+    <p class="albums"><img src="add.jpg" title="Add album"/></p>
+</header>
+<main>
+
+    <section  class="photos"></section>
+    <section class="photo">
+        <img src="no.jpg" alt="No photos to dsiplay." />
+         <form>
+        <h4>Actions</h4>
+        <a href ="" download="">Save</a> 
+        <input type="button" class="delete" id="actionDelete" name="delete" value="delete"/>
+        <br>
+        <br>
+        <label for="#actionCreateAlbum">Create new Album</label>
+        <input type="button" id="actionCreateAlbum" name="createAlbum" value="add"/>
+        </form>
+
+    </section>
+</main>
+
+<footer>
+   <b>Hi! Create your first album and upload some photos</b>
+</footer>
+<script type="text/javascript" src="photosJs.js"></script>
+    </body>
+</html>

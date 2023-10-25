@@ -1,0 +1,30 @@
+h1{
+
+    color:rgb(84, 198, 220);
+    text-align: center;
+    text-transform:uppercase;
+}
+main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+}
+
+form > p{
+
+
+    color:rgb(84, 198, 220) ;
+    font-style: bold;
+}
+input[type="submit"]{
+
+    color:white;
+     background-color: rgb(84, 198, 220) ;
+     border: rgb(84, 198, 220) solid thin;
+     border-radius: 15px;
+}
+h4{
+    text-align: center;
+}
+

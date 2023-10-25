@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PCLoud</title>
+        <link href="Album.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+        <h1>pcloud</h1>
+        <h3>Create Album </h3>
+        </header>
+        <main>
+
+        <form>
+       <label for="albumName">Album Name</label><br>
+       <input id="albumName" name="albumname"  type="text" placeholder="Album name" required/><br>
+       <i>An album must have at least one photo</i><br>
+       <label for="Photos">Photos</label><br>
+       <input id="photos" name="photos" type="file"  required  accept="image/*" multiple/><br>
+       <b></b>
+
+       <input name="submit" type="submit"/>
+
+
+
+        </form>
+        <p class="images">
+
+        </p>
+        </main>
+        <p><b>Quick Note</b></p>
+         <ul>
+            <li>Double click on the image to remove it</li>
+            <li>Images displayed on the right are the ones will be uploaded.</li>
+           
+         </ul>
+        <script src="albumJs.js" type="text/javascript" defer></script>
+        </body>
+        </html>
+    

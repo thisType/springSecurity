@@ -1,0 +1,90 @@
+h1{
+
+    color:rgb(84, 198, 220);
+    text-align: center;
+    text-transform:uppercase;
+}
+p.albums{
+    display: flex;
+    flex-direction:column;
+    overflow-x: scroll;
+}
+p.albums > img{
+   width: 5vw;
+   height: 5vw;
+}
+section{
+    display: inline-grid;
+height: 80vh;
+
+}
+p.albums :hover{
+
+border: rgb(84, 198, 220) solid thin;
+box-shadow: 0 0 0 1 #a6a8a9 ;
+
+
+}
+main{
+    display:grid ;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows:1fr ;
+    height: 70vh;
+}
+section.photos {
+   grid-template-columns: 1;
+   grid-template-rows: 6fr 1fr;
+      
+
+}
+
+form{
+     text-align: center;
+
+}
+section.photo > img {
+    height: 50vh;
+
+
+
+
+}
+
+input[type="button"]{
+
+   color:white;    
+   background-color: rgb(84, 198, 220);
+   border: rgb(84, 198, 220)  solid thin;
+   border-radius: 10px;
+
+
+}
+input.delete{
+
+    color:white;    
+    background-color:red;
+    border: red  solid thin;
+    border-radius: 10px;
+
+
+}
+input[type="button"]:hover{
+ transform: scale(1.1);
+
+ 
+
+}
+
+a:hover{
+
+font-size: 1.2em;
+}
+h4{
+    margin: 0;
+}
+a{
+    color:  rgb(84, 198, 220);
+    font-weight: bold;
+    text-decoration: none;  
+    
+}

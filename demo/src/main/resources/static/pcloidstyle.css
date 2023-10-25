@@ -1,0 +1,76 @@
+h1{
+
+    color:rgb(84, 198, 220);
+    text-align: center;
+    text-transform:uppercase;
+}
+h2{
+    margin:2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+align-items: start;
+}
+
+main > p{
+    width:50vw;
+display: inline-grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+border-radius: 10px;
+box-shadow: 0 0 5px grey;
+
+
+
+}
+b{
+    color:rgb(84, 198, 220);
+    justify-self: center;
+align-self: center;
+
+}
+main > p:hover{
+    scale:1.05;
+
+
+
+}
+
+p > img{
+    width: 10vw;
+    height:10vw;
+    justify-self: center;
+align-self: center;
+
+
+}
+
+a.signup{
+    display: inline-block;
+    color:white;
+    background-color: rgb(84, 198, 220);
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 3px;
+}
+a.login{
+    display: inline-block;
+    color:rgb(84, 198, 220);
+    border: rgb(84, 198, 220)  solid medium;
+    border-radius: 15px;
+    padding: 3px;
+    text-decoration: none;
+}
+header p{
+
+text-align: right;
+
+}
+a:hover{
+    box-shadow: 0 0 0 1px rgb(84, 198, 220) ;
+}

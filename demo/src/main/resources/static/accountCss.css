@@ -1,0 +1,31 @@
+h1{
+
+    color:rgb(84, 198, 220);
+    text-align: center;
+    text-transform:uppercase;
+}
+main{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+p.userDetail{
+
+font-weight: lighter;
+
+}
+button{
+    color:white;
+     background-color: rgb(84, 198, 220) ;
+     border: rgb(84, 198, 220) solid thin;
+     border-radius: 15px;
+}
+p.logout{
+    text-align: right;
+}
+h3{
+    text-align: center;
+}
